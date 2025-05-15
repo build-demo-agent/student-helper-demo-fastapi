@@ -12,7 +12,7 @@ app.add_middleware(
 )
 
 AZURE_URL   = "https://student-helper-001-akqkg.swedencentral.inference.ml.azure.com/score"
-API_KEY     = "Amq0TP6lPtJyLPNcySVLmMCFDMLyXXF5a7yimBSqlvFJlFEDUcNsJQQJ99BEAAAAAAAAAAAAINFRAZML3guU"
+API_KEY = os.getenv("API_KEY")
 DEPLOYMENT  = "student-helper-001-akqkg-1"
 
 class ChatReq(BaseModel):
