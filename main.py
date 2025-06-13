@@ -15,7 +15,7 @@ app.add_middleware(
 
 AZURE_URL   = "https://student-helper-dev-001.swedencentral.inference.ml.azure.com/score"
 API_KEY     = os.getenv("API_KEY")
-DEPLOYMENT  = "student-helper-dev-001"
+DEPLOYMENT  = "student-helper-dev-001-3"
 
 # --- Data Models ---
 
